@@ -20,7 +20,6 @@ class State extends Component {
     
     plusClick (){
         this.setState({ value: this.state.value + 1 })
-        alert("صفا طلال حسن احمد محمد القيسي (غبية)")
     };
     subtractClick (){
         this.setState({ value: this.state.value -  1 })
@@ -29,10 +28,8 @@ class State extends Component {
         this.setState({ value: 0 })
     };
     change(event) {
-
-        let id = event.target.id
-
-        this.setState({ [id]: event.target.value })
+        let x = event.target.id;
+        this.setState({ [x]: event.target.value })
     };
 
 /*    changeage(event) {

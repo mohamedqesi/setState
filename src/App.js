@@ -8,6 +8,6 @@ function App() {
       <State />
     </div>
   );
-}
+  }
 
 export default App;
